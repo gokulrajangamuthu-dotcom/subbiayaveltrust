@@ -16,11 +16,37 @@ import {
 export const dynamic = 'force-dynamic'
 
 export const metadata = {
-  title: 'Subbiayavel Trust | Official Website',
+  title: {
+    absolute: 'Subbiayavel Trust | Official Website',
+  },
   description:
     'Official website and digital learning portal for Subbiayavel Charitable Trust (Regd. No. 4/53/2025). Discover educational videos, books, literature, and trust announcements.',
   alternates: {
     canonical: 'https://subbiayaveltrust.vercel.app/',
+  },
+  openGraph: {
+    title: 'Subbiayavel Trust | Official Website',
+    description:
+      'Official website and digital learning portal for Subbiayavel Charitable Trust (Regd. No. 4/53/2025). Discover educational videos, books, literature, and trust announcements.',
+    url: 'https://subbiayaveltrust.vercel.app/',
+    siteName: 'Subbiayavel Trust',
+    images: [
+      {
+        url: 'https://subbiayaveltrust.vercel.app/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Subbiayavel Charitable Trust Official Banner',
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Subbiayavel Trust | Official Website',
+    description:
+      'Official website and digital learning portal for Subbiayavel Charitable Trust (Regd. No. 4/53/2025).',
+    images: ['https://subbiayaveltrust.vercel.app/logo.png'],
   },
 }
 
